@@ -9,7 +9,7 @@ version: 2
 name: Aditi Jain
 title: Undergraduate at IIT Delhi
 email: aditijain140102@gmail.com
-website: www.github.com/sproogen/resume-theme
+website: https://scholar.google.com/citations?user=sS2YRPAAAAAJ&hl=en
 
 # Dark Mode (true/false/never)
 darkmode: never
@@ -22,7 +22,7 @@ github_username:  AditiJain14
 # facebook_username: jekyll
 # flickr_username: jekyll
 # instagram_username: jameswgrant
-linkedin_username: ajdfhclkd
+linkedin_username: aditi-jain-3688231b6
 # xing_username: jekyll
 # pinterest_username: jekyll
 # youtube_username: globalmtb
@@ -48,10 +48,10 @@ additional_links:
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name's Brett and I'm a senior network system administrator. As well as administrating systems I also have experience making software and web apps. I have worked at a number of companies gaining teamwork and leadership skills.
+  Hi, I am a final year Master's student at IIT Delhi, studying Mathematics and Computing. I was also a visiting Research Assistant at Simon Fraser University, Burnaby, Canada in SFU NatLang Lab for the Spring and Summer 2023 terms. 
+  I was also a visiting intern in the 3DLG lab at SFU. I am interested in Multimodal NLP and Translation. 
 
-  I am most skilled in: <mark>AWS</mark> and <mark>Eating Pizza</mark>
-
+  
 content:
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
@@ -76,11 +76,11 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: The Boring Company
+        title: 
         link: boringcompany.com
         # link_text: boringcompany.com
-        sub_title: Senior Network System Administrator
-        caption: November 2017 - Present
+        sub_title: Graduate Research Assistant
+        caption: Dec 2022 - Aug 2023
         quote: >
           Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
         description: | # this will include new lines to allow paragraphs
@@ -90,9 +90,9 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: Harvard University
-        caption: 2010 - 2013
-        sub_title: BSc Computer Science
+        title: Indian Institute of Technology, Delhi
+        caption: 2019 - 2024
+        sub_title: Integrated Bachelor's and Master's of Technology
         quote: >
           Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
         description: | # this will include new lines to allow paragraphs
@@ -103,11 +103,11 @@ content:
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
-      Alongside my interests in networks and software engineering some of my other interests and hobbies are:
-      - Rock climbing
-      - Gaming
-      - Knitting
-      - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
+      Alongside my interests in NLP and maths, some of my other interests and hobbies are:
+      - Reading (mostly fiction, you can check out my latest reads on my goodreads)
+      - Hiking (I like taking nature pictures!)
+      - Anime
+     
 
       Look at this cool image  
       ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
