@@ -57,7 +57,7 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: 
+        title: Graduate Research Assistant at NatLang Lab, SFU
         link: https://github.com/AditiJain14/TIQTok
         # link_text: boringcompany.com
         sub_title: Graduate Research Assistant
