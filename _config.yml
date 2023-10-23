@@ -53,6 +53,25 @@ about_content: | # this will include new lines to allow paragraphs
 
   
 content:
+ - title: Projects # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: top-middle
+        title: Super awesome project
+        link: github.com/sproogen
+        # link_text: Project Website
+        additional_links:
+          - title:  sproogen/modern-resume-theme
+            icon: fab fa-github
+            url: github.com/sproogen/modern-resume-theme
+          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          #   icon: fab fa-github
+          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        quote: >
+          Simultaneous Machine Translation 
+        description: | # this will include new lines to allow paragraphs
+          I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
+
  - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
     content:
@@ -93,25 +112,7 @@ content:
       #   quote: > Supervised by Dr. Ashish Anand
       #   description: | # this will includ
       #   Prepared a new VQA dataset with 3 categorical rephrasings (30k questions) Logical Equivalence, Necessary Condition and Mutual Exclusion - made from the VQA validation dataset which contributed to an ICPRW paper. Trained character-level & word-level encoder decoder models for rephrasing generation based on RNNs and also experimented with a pretrained DistilBert model and added a Gensim embedding layer to improve rephrasing generation.
-  - title: Projects # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: top-middle
-        title: Super awesome project
-        link: github.com/sproogen
-        # link_text: Project Website
-        additional_links:
-          - title:  sproogen/modern-resume-theme
-            icon: fab fa-github
-            url: github.com/sproogen/modern-resume-theme
-          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-          #   icon: fab fa-github
-          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-        quote: >
-          Simultaneous Machine Translation 
-        description: | # this will include new lines to allow paragraphs
-          I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
-
+ 
  
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
