@@ -53,25 +53,6 @@ about_content: | # this will include new lines to allow paragraphs
 
   
 content:
- - title: Projects # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: top-middle
-        title: Super awesome project
-        link: github.com/sproogen
-        # link_text: Project Website
-        additional_links:
-          - title:  sproogen/modern-resume-theme
-            icon: fab fa-github
-            url: github.com/sproogen/modern-resume-theme
-          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-          #   icon: fab fa-github
-          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-        quote: >
-          Simultaneous Machine Translation 
-        description: | # this will include new lines to allow paragraphs
-          I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
-
  - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
     content:
@@ -81,38 +62,55 @@ content:
         # link_text: boringcompany.com
         sub_title: Simultaneous Machine Translation (Published in IWSLT Workshop @ ACL 2023)
         caption: Dec 2022 - Aug 2023
-        quote: > 
-          Supervised by Dr. Anoop Sarkar and Nishant Kambhatla
+        quote: > Supervised by Dr. Anoop Sarkar and Nishant Kambhatla
         description: | # this will include new lines to allow paragraphs
           SiMT models struggle to maintain translation quality while keeping latency low. In my work, we used an auxiliary language model to augment the training of the decoder model. Under this notion of target adaptive training, generating rare or difficult tokens is rewarded which improves the translation quality while reducing latency. The predictions made by a language model in the decoder are combined with the traditional cross entropy loss which frees up the focus on the source side context
-      # - layout: left
-      #   title: Graduate Research Assistant at 3DLG Lab, SFU 
-      #   link: https://arxiv.org/pdf/2201.07366.pdf
-      #   # link_text: boringcompany.com
-      #   sub_title: TriCoLo : Trimodal Contrastive Loss for Fine-grained Text to Shape Retrieval
-      #   caption: May 2022 - July 2022
-      #   quote: > Supervised by Dr. Angel Chang
-      #   description: | # this will includ
-      #   Explored text augmentations such as word-dropout and switch-out for the TriCoLo model and used these to train the encoder with SimCSE method. Compared improvements in sentence embeddings by using pretrained models like BERT, GLoVe, and SentenceBERT.
-      # - layout: left
-      #   title: Summer Undergraduate Research Intern at IIT Delhi
-      #   link: https://www.vldb.org/pvldb/vol15/p1924-bhattacharya.pdf
-      #   # link_text: boringcompany.com
-      #   sub_title: Optimizing Bloom Filters with Learned Hashes
-      #   caption: May 2021 - Nov 2021
-      #   quote: > Supervised by Dr. Srikanta Bedathur
-      #   description: | # this will includ
-      #   Replaced traditional hash functions with a random projection-based approach to exploit patterns in the data. Found upper bounds for size and false positive rate for the proposed method with extensive mathematical grounding. Awarded the Undergraduate Research Award for the project and laid the groundwork for a VLDB publication. 
-      # - layout: left
-      #   title: Research Intern at IIT Guwahati
-      #   link: https://doi.org/10.1007/978-3-030-68790-8_28
-      #   # link_text: boringcompany.com
-      #   sub_title: IQ-VQA: Intelligent Visual Question Answering
-      #   caption: May 2020 - July 2020
-      #   quote: > Supervised by Dr. Ashish Anand
-      #   description: | # this will includ
-      #   Prepared a new VQA dataset with 3 categorical rephrasings (30k questions) Logical Equivalence, Necessary Condition and Mutual Exclusion - made from the VQA validation dataset which contributed to an ICPRW paper. Trained character-level & word-level encoder decoder models for rephrasing generation based on RNNs and also experimented with a pretrained DistilBert model and added a Gensim embedding layer to improve rephrasing generation.
- 
+    - layout: left
+            title: Graduate Research Assistant at 3DLG Lab, SFU 
+            link: https://arxiv.org/pdf/2201.07366.pdf
+            # link_text: boringcompany.com
+            sub_title: TriCoLo : Trimodal Contrastive Loss for Fine-grained Text to Shape Retrieval
+            caption: May 2022 - July 2022
+            quote: > Supervised by Dr. Angel Chang
+            description: | # this will includ
+            Explored text augmentations such as word-dropout and switch-out for the TriCoLo model and used these to train the encoder with SimCSE method. Compared improvements in sentence embeddings by using pretrained models like BERT, GLoVe, and SentenceBERT.
+    - layout: left
+            title: Summer Undergraduate Research Intern at IIT Delhi
+            link: https://www.vldb.org/pvldb/vol15/p1924-bhattacharya.pdf
+            # link_text: boringcompany.com
+            sub_title: Optimizing Bloom Filters with Learned Hashes
+            caption: May 2021 - Nov 2021
+            quote: > Supervised by Dr. Srikanta Bedathur
+            description: | # this will includ
+            Replaced traditional hash functions with a random projection-based approach to exploit patterns in the data. Found upper bounds for size and false positive rate for the proposed method with extensive mathematical grounding. Awarded the Undergraduate Research Award for the project and laid the groundwork for a VLDB publication. 
+      - layout: left
+            title: Research Intern at IIT Guwahati
+            link: https://doi.org/10.1007/978-3-030-68790-8_28
+            # link_text: boringcompany.com
+            sub_title: IQ-VQA: Intelligent Visual Question Answering
+            caption: May 2020 - July 2020
+            quote: > Supervised by Dr. Ashish Anand
+            description: | # this will includ
+            Prepared a new VQA dataset with 3 categorical rephrasings (30k questions) Logical Equivalence, Necessary Condition and Mutual Exclusion - made from the VQA validation dataset which contributed to an ICPRW paper. Trained character-level & word-level encoder decoder models for rephrasing generation based on RNNs and also experimented with a pretrained DistilBert model and added a Gensim embedding layer to improve rephrasing generation.
+  # - title: Projects # Title for the section
+  #   layout: list # Type of content section (list/text)
+  #   content:
+  #     - layout: top-middle
+  #       title: Super awesome project
+  #       link: github.com/sproogen
+  #       # link_text: Project Website
+  #       additional_links:
+  #         - title:  sproogen/modern-resume-theme
+  #           icon: fab fa-github
+  #           url: github.com/sproogen/modern-resume-theme
+  #         # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+  #         #   icon: fab fa-github
+  #         #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+  #       quote: >
+  #         Simultaneous Machine Translation 
+  #       description: | # this will include new lines to allow paragraphs
+  #         I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
+
  
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
