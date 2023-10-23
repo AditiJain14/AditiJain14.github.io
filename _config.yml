@@ -66,6 +66,7 @@ content:
           Supervised by Dr. Anoop Sarkar and Nishant Kambhatla
         description: | # this will include new lines to allow paragraphs
           SiMT models struggle to maintain translation quality while keeping latency low. In my work, we used an auxiliary language model to augment the training of the decoder model. Under this notion of target adaptive training, generating rare or difficult tokens is rewarded which improves the translation quality while reducing latency. The predictions made by a language model in the decoder are combined with the traditional cross entropy loss which frees up the focus on the source side context
+          
   #   - layout: left
   #           title: Graduate Research Assistant at 3DLG Lab, SFU 
   #           link: https://arxiv.org/pdf/2201.07366.pdf
@@ -123,8 +124,6 @@ content:
         title: Indian Institute of Technology, Delhi
         caption: 2019 - 2024
         sub_title: Integrated Bachelor's and Master's of Technology in Mathematics and Computing
-        quote: >
-          Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
         description: | # this will include new lines to allow paragraphs
         During my undergrad, I studied introductory and advanced level courses of probability and statistics, linear algebra, calculus, game theory, optimization, data mining and data structures and algorithms.  I also took 2 electives of linguistics studying structure and function of word in language. 
         I was also an active member of the Literary Society at IIT Delhi. 
