@@ -63,10 +63,9 @@ content:
         sub_title: Simultaneous Machine Translation (Published in IWSLT Workshop @ ACL 2023)
         caption: Dec 2022 - Aug 2023
         quote: >
-          Simultaneous Machine Translation
+          Supervised by Dr. Anoop Sarkar and Nishant Kambhatla
         description: | # this will include new lines to allow paragraphs
-          I improved Meta’s Monotonic Multihead Attention (MMA) model with target-adaptive training using an auxiliary language model in the decoder for the aim of rewarding generation of rare or difficult tokens. My method achieved significant gains in BLEU (translation quality) and Latency (translation delay) scores over various other SoTA models in English-German and English-Vietnamese translations of the IWSLT Dataset. |
-          I also introduced structured multi-head attention to MMA to predict the “window” of cross-attention using target token information to extend the rigid infinite-lookback and hard setting of MMA.
+          SiMT models struggle to maintain translation quality while keeping latency low. In my work, we used an auxiliary language model to augment the training of the decoder model. Under this notion of target adaptive training, generating rare or difficult tokens is rewarded which improves the translation quality while reducing latency. The predictions made by a language model in the decoder are combined with the traditional cross entropy loss which frees up the focus on the source side context
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
     content:
