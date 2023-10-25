@@ -16,7 +16,7 @@ darkmode: never
 
 # Social links
 twitter_username: aditijainx
-github_username:  AditiJain14
+github_username: AditiJain14
 # stackoverflow_username: "00000001"
 # dribbble_username: jekyll
 # facebook_username: jekyll
@@ -31,12 +31,12 @@ linkedin_username: aditi-jain-3688231b6
 
 # Additional icon links
 additional_links:
-- title: Google Scholar
-  icon: fas fa-globe
-  url: https://scholar.google.com/citations?user=sS2YRPAAAAAJ&hl=en
-# - title: another link
-#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
-#   url: Link url (eg. https://google.com)
+  - title: Google Scholar
+    icon: fas fa-globe
+    url: https://scholar.google.com/citations?user=sS2YRPAAAAAJ&hl=en
+  # - title: another link
+  #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
+  #   url: Link url (eg. https://google.com)
 
 # Google Analytics and Tag Manager
 # Using more than one of these may cause issues with reporting
@@ -48,34 +48,33 @@ additional_links:
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  I am a final year Master's student at IIT Delhi, studying Mathematics and Computing. I was also a visiting Research Assistant at Simon Fraser University, Burnaby, Canada in SFU NatLang Lab for the Spring and Summer 2023 terms. 
-  I was also a visiting intern in the 3DLG lab at SFU. I am interested in Multimodal NLP and Translation. 
+  I am a final year Master's student at IIT Delhi, studying Mathematics and Computing. I was also a visiting Research Assistant at Simon Fraser University, Burnaby, Canada in SFU NatLang Lab for the Spring and Summer 2023 terms.
+  I was also a visiting intern in the 3DLG lab at SFU. I am interested in Multimodal NLP and Translation.
 
-  
 content:
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
     content:
-      -  layout: left
-         title: Graduate Research Assistant at NatLang Lab, SFU
-         link: https://github.com/AditiJain14/TIQTok
+      - layout: left
+        title: Graduate Research Assistant at NatLang Lab, SFU
+        link: https://github.com/AditiJain14/TIQTok
         # link_text: boringcompany.com
-         sub_title: Simultaneous Machine Translation (Published in IWSLT Workshop @ ACL 2023)
-         caption: Dec 2022 - Aug 2023
-         quote: >
+        sub_title: Simultaneous Machine Translation (Published in IWSLT Workshop @ ACL 2023)
+        caption: Dec 2022 - Aug 2023
+        quote: >
           Supervised by Dr. Anoop Sarkar and Nishant Kambhatla
-         description: | # this will include new lines to allow paragraphs
+        description: | # this will include new lines to allow paragraphs
           SiMT models struggle to maintain translation quality while keeping latency low. In my work, we used an auxiliary language model to augment the training of the decoder model. Under this notion of target adaptive training, generating rare or difficult tokens is rewarded which improves the translation quality while reducing latency. The predictions made by a language model in the decoder are combined with the traditional cross entropy loss which frees up the focus on the source side context
-      -  layout: left
-         title: Your Second Experience Title
-         link: https://your-second-experience-link.com
-         sub_title: Description of Your Second Experience
-         caption: Date Range for Your Second Experience
-         quote: >
+      - layout: left
+        title: Your Second Experience Title
+        link: https://your-second-experience-link.com
+        sub_title: Description of Your Second Experience
+        caption: Date Range for Your Second Experience
+        quote: >
           Supervisor/Colleague for Your Second Experience
-         description: |
+        description: |
           Description of Your Second Experience
-        
+
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
     content:
@@ -86,18 +85,18 @@ content:
         quote: >
           Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
         description: | # this will include new lines to allow paragraphs
-          During my time at Harvard I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
+          During my time at Harvard I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines. I thoroughly enjoyed my time at the university and learned a lot about a healthy work-life balance.
           I spent a lot of my free time as a committee member of the *Harvard Mountaineering Club* taking on roles such as *Trip Secretary* and *Vice-President*.
 
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
       Alongside my interests in NLP and maths, some of my other interests and hobbies are:
-      - Reading (mostly fiction, you can check out my latest reads on my goodreads)
+      - Reading (mostly fiction, you can check out my latest reads on my Goodreads)
       - Hiking (I like taking nature pictures!)
       - Anime
-     
-      Look at this cool image  
+
+      Look at this cool image
       ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
 
 # Footer
