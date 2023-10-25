@@ -56,7 +56,7 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title:  <h1>Graduate Research Assistant at NatLang Lab, SFU <h1>
+        title: <h1>Graduate Research Assistant at NatLang Lab, SFU <h1>
         link: https://github.com/AditiJain14/TIQTok
         sub_title: Supervised by Dr. Anoop Sarkar 
         caption: Dec 2022 - Aug 2023
@@ -66,7 +66,7 @@ content:
           SiMT models struggle to maintain translation quality while keeping latency low. In my work, we used an auxiliary language model to augment the training of the decoder model. Under this notion of target adaptive training, generating rare or difficult tokens is rewarded which improves the translation quality while reducing latency. The predictions made by a language model in the decoder are combined with the traditional cross entropy loss which frees up the focus on the source side context
           
       - layout: left
-        title:  <h1>Graduate Research Assistant at 3DLG Lab, SFU  <h1>
+        title: <h1>Graduate Research Assistant at 3DLG Lab, SFU  <h1>
         link: https://arxiv.org/pdf/2201.07366.pdf
         sub_title: Supervised by Dr. Angel Chang
         caption: May 2022 - July 2022
