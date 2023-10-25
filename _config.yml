@@ -61,7 +61,7 @@ content:
         sub_title: Supervised by Dr. Anoop Sarkar 
         caption: Dec 2022 - Aug 2023
         description: |
-          *Simultaneous Machine Translation (Published in IWSLT Workshop @ ACL 2023)*
+          **Simultaneous Machine Translation (Published in IWSLT Workshop @ ACL 2023)**
           
           SiMT models struggle to maintain translation quality while keeping latency low. In my work, we used an auxiliary language model to augment the training of the decoder model. Under this notion of target adaptive training, generating rare or difficult tokens is rewarded which improves the translation quality while reducing latency. The predictions made by a language model in the decoder are combined with the traditional cross entropy loss which frees up the focus on the source side context
           
@@ -71,7 +71,7 @@ content:
         sub_title: Supervised by Dr. Angel Chang
         caption: May 2022 - July 2022
         description: |
-          *TriCoLo Trimodal Contrastive Loss for Fine-grained Text to Shape Retrieval*
+          **TriCoLo Trimodal Contrastive Loss for Fine-grained Text to Shape Retrieval**
           
           Explored text augmentations such as word-dropout and switch-out for the TriCoLo model and used these to train the encoder with SimCSE method. Compared improvements in sentence embeddings by using pretrained models like BERT, GLoVe, and SentenceBERT.
       
@@ -81,7 +81,7 @@ content:
         sub_title: Supervised by Dr. Srikanta Bedathur
         caption: May 2021 - Nov 2021
         description: |
-          *Optimizing Bloom Filters with Learned Hashes*
+          **Optimizing Bloom Filters with Learned Hashes**
           
           Replaced traditional hash functions with a random projection-based approach to exploit patterns in the data. Found upper bounds for size and false positive rate for the proposed method with extensive mathematical grounding. Awarded the Undergraduate Research Award for the project and laid the groundwork for a VLDB publication.
           
