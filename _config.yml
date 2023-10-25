@@ -70,7 +70,8 @@ content:
         link: https://arxiv.org/pdf/2201.07366.pdf
         sub_title: Supervised by Dr. Angel Chang
         caption: May 2022 - July 2022
-        description: |
+        description:
+          sub_title: hello
           **TriCoLo Trimodal Contrastive Loss for Fine-grained Text to Shape Retrieval**
           
           Explored text augmentations such as word-dropout and switch-out for the TriCoLo model and used these to train the encoder with SimCSE method. Compared improvements in sentence embeddings by using pretrained models like BERT, GLoVe, and SentenceBERT.
