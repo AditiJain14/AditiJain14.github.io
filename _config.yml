@@ -55,13 +55,11 @@ content:
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
     content:
-     - layout: left
+      - layout: left
         title: Graduate Research Assistant at NatLang Lab, SFU
         link: https://github.com/AditiJain14/TIQTok
         sub_title: Supervised by Dr. Anoop Sarkar 
         caption: Dec 2022 - Aug 2023
-        quote: >
-
         description: |
           _Simultaneous Machine Translation (Published in IWSLT Workshop @ ACL 2023)_
           SiMT models struggle to maintain translation quality while keeping latency low. In my work, we used an auxiliary language model to augment the training of the decoder model. Under this notion of target adaptive training, generating rare or difficult tokens is rewarded which improves the translation quality while reducing latency. The predictions made by a language model in the decoder are combined with the traditional cross entropy loss which frees up the focus on the source side context
