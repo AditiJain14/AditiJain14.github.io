@@ -56,25 +56,24 @@ content:
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
     content:
-      layout: list
-      content: 
-        title: Graduate Research Assistant at NatLang Lab, SFU
-        link: https://github.com/AditiJain14/TIQTok
+      -  layout: left
+         title: Graduate Research Assistant at NatLang Lab, SFU
+         link: https://github.com/AditiJain14/TIQTok
         # link_text: boringcompany.com
-        sub_title: Simultaneous Machine Translation (Published in IWSLT Workshop @ ACL 2023)
-        caption: Dec 2022 - Aug 2023
-        quote: >
+         sub_title: Simultaneous Machine Translation (Published in IWSLT Workshop @ ACL 2023)
+         caption: Dec 2022 - Aug 2023
+         quote: >
           Supervised by Dr. Anoop Sarkar and Nishant Kambhatla
-        description: | # this will include new lines to allow paragraphs
+         description: | # this will include new lines to allow paragraphs
           SiMT models struggle to maintain translation quality while keeping latency low. In my work, we used an auxiliary language model to augment the training of the decoder model. Under this notion of target adaptive training, generating rare or difficult tokens is rewarded which improves the translation quality while reducing latency. The predictions made by a language model in the decoder are combined with the traditional cross entropy loss which frees up the focus on the source side context
-  
-        title: Your Second Experience Title
-        link: https://your-second-experience-link.com
-        sub_title: Description of Your Second Experience
-        caption: Date Range for Your Second Experience
-        quote: >
+      -  layout: left
+         title: Your Second Experience Title
+         link: https://your-second-experience-link.com
+         sub_title: Description of Your Second Experience
+         caption: Date Range for Your Second Experience
+         quote: >
           Supervisor/Colleague for Your Second Experience
-        description: |
+         description: |
           Description of Your Second Experience
         
   - title: Education # Title for the section
