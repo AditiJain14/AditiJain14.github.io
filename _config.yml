@@ -68,22 +68,22 @@ content:
       - layout: left
         title: Graduate Research Assistant at 3DLG Lab, SFU
         link: https://arxiv.org/pdf/2201.07366.pdf
-        sub_title: TriCoLo: Trimodal Contrastive Loss for Fine-grained Text to Shape Retrieval
+        sub_title: TriCoLo Trimodal Contrastive Loss for Fine-grained Text to Shape Retrieval
         caption: May 2022 - July 2022
         quote: >
           Supervised by Dr. Angel Chang
         description: |
           Explored text augmentations such as word-dropout and switch-out for the TriCoLo model and used these to train the encoder with SimCSE method. Compared improvements in sentence embeddings by using pretrained models like BERT, GLoVe, and SentenceBERT.
       
-      # - layout: left
-      #   title: Summer Undergraduate Research Intern at IIT Delhi
-      #   link: https://www.vldb.org/pvldb/vol15/p1924-bhattacharya.pdf
-      #   sub_title: Optimizing Bloom Filters with Learned Hashes
-      #   caption: May 2021 - Nov 2021
-      #   quote: >
-      #     Supervised by Dr. Srikanta Bedathur
-      #   description: |
-      #     Replaced traditional hash functions with a random projection-based approach to exploit patterns in the data. Found upper bounds for size and false positive rate for the proposed method with extensive mathematical grounding. Awarded the Undergraduate Research Award for the project and laid the groundwork for a VLDB publication.
+      - layout: left
+        title: Summer Undergraduate Research Intern at IIT Delhi
+        link: https://www.vldb.org/pvldb/vol15/p1924-bhattacharya.pdf
+        sub_title: Optimizing Bloom Filters with Learned Hashes
+        caption: May 2021 - Nov 2021
+        quote: >
+          Supervised by Dr. Srikanta Bedathur
+        description: |
+          Replaced traditional hash functions with a random projection-based approach to exploit patterns in the data. Found upper bounds for size and false positive rate for the proposed method with extensive mathematical grounding. Awarded the Undergraduate Research Award for the project and laid the groundwork for a VLDB publication.
           
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
