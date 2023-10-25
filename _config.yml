@@ -12,7 +12,7 @@ email: aditijain140102@gmail.com
 website: aditija.in
 
 # Dark Mode (true/false/never)
-darkmode: never
+darkmode: true
 
 # Social links
 twitter_username: aditijainx
@@ -55,16 +55,17 @@ content:
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
     content:
-      - layout: left
-        title: Graduate Research Assistant at NatLang Lab, SFU
-        link: https://github.com/AditiJain14/TIQTok
-        sub_title: Simultaneous Machine Translation (Published in IWSLT Workshop @ ACL 2023)
-        caption: Dec 2022 - Aug 2023
-        quote: >
-          Supervised by Dr. Anoop Sarkar and Nishant Kambhatla
-        description: |
-          SiMT models struggle to maintain translation quality while keeping latency low. In my work, we used an auxiliary language model to augment the training of the decoder model. Under this notion of target adaptive training, generating rare or difficult tokens is rewarded which improves the translation quality while reducing latency. The predictions made by a language model in the decoder are combined with the traditional cross entropy loss which frees up the focus on the source side context
-      
+      - layout: left-right
+        left:
+          - title: Graduate Research Assistant at NatLang Lab, SFU
+            sub_title: Simultaneous Machine Translation (Published in IWSLT Workshop @ ACL 2023)
+            caption: Dec 2022 - Aug 2023
+            quote: Supervised by Dr. Anoop Sarkar and Nishant Kambhatla
+            description: >
+              SiMT models struggle to maintain translation quality while keeping latency low. In my work, we used an auxiliary language model to augment the training of the decoder model. Under this notion of target adaptive training, generating rare or difficult tokens is rewarded which improves the translation quality while reducing latency. The predictions made by a language model in the decoder are combined with the traditional cross entropy loss which frees up the focus on the source side context
+        right:
+          - link: https://github.com/AditiJain14/TIQTok
+          
       - layout: left
         title: Graduate Research Assistant at 3DLG Lab, SFU
         link: https://arxiv.org/pdf/2201.07366.pdf
