@@ -48,8 +48,8 @@ additional_links:
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  I am a final year Master's student at IIT Delhi, studying Mathematics and Computing. I was a visiting Research Assistant at Simon Fraser University, Burnaby, Canada in SFU NatLang Lab for the Spring and Summer 2023 terms.
-  I was also a visiting intern in the 3DLG lab at SFU. I am interested in Multimodal NLP and Translation.
+  I am a final year Master's student at IIT Delhi, studying Mathematics and Computing. I was a visiting Research Assistant at Simon Fraser University, Burnaby, Canada in <a href="http://natlang.cs.sfu.ca/">NatLang Lab</a> for the Spring and Summer 2023 terms.
+  I was also a visiting intern in the <a href="https://angelxuanchang.github.io/group.html">3DLG Lab</a> at SFU. I am interested in Multimodal NLP and Translation.
 
 content:
   - title: Experience # Title for the section
@@ -78,7 +78,27 @@ content:
         caption: Supervised by Dr. Srikanta Bedathur (May 2021 - Nov 2021)
         description: |
           Replaced traditional hash functions with a random projection-based approach to exploit patterns in the data by projecting each data point onto a set of vectors. The vectors themselves were divided into bins (to map to indices of the bit array) and the best vector set for a particular dataset was selected after some iterations. This method showed a significant reduction in the memory footprint of a BF while maintaining the desired false positive rate (FPR). I also found upper bounds for size and FPR for the proposed method with extensive mathematical grounding. Awarded the Undergraduate Research Award for the project and laid the groundwork for a VLDB publication.
-          
+  
+  - title: Publications # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: top-middle
+        description: |
+          **Language Model Based Target Token Importance Rescaling for Simultaneous Neural Machine Translation** , Aditi Jain*, Nishant Kambhatla*, Anoop Sarkar, Association for Computational Linguistics (ACL) International Conference on Spoken Language Translation (IWSLT) Workshop 2023. <a href="https://aclanthology.org/2023.iwslt-1.32/"> [DOI] </a>
+
+  - title: Projects
+    layout: list
+    content:
+     - layout: left
+        border: weak  # Value of `weak` will display a weak border below this item. # Any 
+                      # other value (or no value) means no border will be displayed
+        title: Intelligent Visual Question Answering
+        link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        quote: >
+          Short overview of the project (optional)
+        description: | # this will include new lines to allow paragraphs
+          Description about the work on/with the project
+
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
     content:
