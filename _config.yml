@@ -69,7 +69,7 @@ content:
         link: https://arxiv.org/pdf/2201.07366.pdf
         caption: Supervised by Dr. Angel Chang (May 2022 - July 2022)
         description: |
-          Explored text augmentations such as word-dropout and switch-out for the TriCoLo model and used these to train the encoder with SimCSE method. Compared improvements in sentence embeddings by using pretrained models like BERT, GLoVe, and SentenceBERT.
+          The text, image and voxels of the objects of the Text2Shape dataset are embedded in a common space using a trimodality contrastive loss. I experimented with introducing different augmentations to the text and image encoding modules, and implemented methods like SimCSE on sentence embeddings with augmentations such as word-dropout and switch-out. Compared improvements in sentence embeddings by using pretrained models like BERT, GLoVe, and SentenceBERT.
       
       - layout: top-middle
         title: Optimizing Bloom Filters with Learned Hashes 
@@ -77,7 +77,7 @@ content:
         link: https://www.vldb.org/pvldb/vol15/p1924-bhattacharya.pdf
         caption: Supervised by Dr. Srikanta Bedathur (May 2021 - Nov 2021)
         description: |
-          Replaced traditional hash functions with a random projection-based approach to exploit patterns in the data. Found upper bounds for size and false positive rate for the proposed method with extensive mathematical grounding. Awarded the Undergraduate Research Award for the project and laid the groundwork for a VLDB publication.
+          Replaced traditional hash functions with a random projection-based approach to exploit patterns in the data by projecting each data point onto a set of vectors. The vectors themselves were divided into bins (to map to indices of the bit array) and the best vector set for a particular dataset was selected after some iterations. This method showed a significant reduction in the memory footprint of a BF while maintaining the desired false positive rate (FPR). I also found upper bounds for size and FPR for the proposed method with extensive mathematical grounding. Awarded the Undergraduate Research Award for the project and laid the groundwork for a VLDB publication.
           
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
