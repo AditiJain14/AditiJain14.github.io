@@ -61,7 +61,7 @@ content:
         link: https://github.com/AditiJain14/TIQTok
         caption: Supervised by Dr. Anoop Sarkar (Dec 2022 - Aug 2023)
         description: |
-          SiMT models struggle to maintain translation quality while keeping latency low. In my work, we used an auxiliary language model to augment the training of the decoder model. Under this notion of target adaptive training, generating rare or difficult tokens is rewarded which improves the translation quality while reducing latency. The predictions made by a language model in the decoder are combined with the traditional cross entropy loss which frees up the focus on the source side context
+          SiMT models struggle to maintain translation quality while keeping latency low. In my work, we used an auxiliary language model to augment the training of the decoder model. Under this notion of target adaptive training, generating rare or difficult tokens is rewarded which improves the translation quality while reducing latency. The predictions made by a language model in the decoder are combined with the traditional cross entropy loss which frees up the focus on the source side context. This training method significantly improved BLEU scores in the English-Vietnamese and English-German language pairs, especially in the early latencies which are more difficult to translate for.
           
       - layout: top-middle
         title: TriCoLo Trimodal Contrastive Loss for Text to 3D Shape Retrieval 
