@@ -48,7 +48,7 @@ additional_links:
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  I am a final year Master's student at IIT Delhi, studying Mathematics and Computing. I was also a visiting Research Assistant at Simon Fraser University, Burnaby, Canada in SFU NatLang Lab for the Spring and Summer 2023 terms.
+  I am a final year Master's student at IIT Delhi, studying Mathematics and Computing. I was a visiting Research Assistant at Simon Fraser University, Burnaby, Canada in SFU NatLang Lab for the Spring and Summer 2023 terms.
   I was also a visiting intern in the 3DLG lab at SFU. I am interested in Multimodal NLP and Translation.
 
 content:
@@ -64,7 +64,7 @@ content:
           SiMT models struggle to maintain translation quality while keeping latency low. In my work, we used an auxiliary language model to augment the training of the decoder model. Under this notion of target adaptive training, generating rare or difficult tokens is rewarded which improves the translation quality while reducing latency. The predictions made by a language model in the decoder are combined with the traditional cross entropy loss which frees up the focus on the source side context. This training method significantly improved BLEU scores in the English-Vietnamese and English-German language pairs, especially in the early latencies which are more difficult to translate for.
           
       - layout: top-middle
-        title: TriCoLo Trimodal Contrastive Loss for Text to 3D Shape Retrieval 
+        title: TriCoLo - Trimodal Contrastive Loss for Text to 3D Shape Retrieval 
         sub_title: Graduate Research Assistant at 3DLG Lab, SFU
         link: https://arxiv.org/pdf/2201.07366.pdf
         caption: Supervised by Dr. Angel Chang (May 2022 - July 2022)
