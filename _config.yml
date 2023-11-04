@@ -92,7 +92,7 @@ content:
       - layout: left
         title: Improving Robustness of Visual Question Answering (VQA) Systems
         link: https://doi.org/10.1007/978-3-030-68790-8_28
-        quote: ** Supervised by Dr. Ashish Anand, IIT Guwahati (May 2020 - Jul 2020) **
+        caption: Supervised by Dr. Ashish Anand, IIT Guwahati (May 2020 - Jul 2020)
         description: | # this will include new lines to allow paragraphs
           I helped annotate a new VQA dataset with 3 categorical rephrasings (30k questions) and contributed to an ICPRW paper. I also trained character-level & word-level encoder decoder models for rephrasing generation using RNNs. I also experimented with using pretrained DistilBert model and a Gensim embedding layer to improve consistency by 15%.
 
