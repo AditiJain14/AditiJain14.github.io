@@ -94,7 +94,7 @@ content:
         link: https://doi.org/10.1007/978-3-030-68790-8_28
         caption: Supervised by Dr. JayaShree Kalpathy-Cramer, Harvard University (Aug 2022 - Nov 2022)
         description: | # this will include new lines to allow paragraphs
-          ** Analysis of Breast Histopathology Images ** <br>
+          **Analysis of Breast Histopathology Images** <br>
           + I worked on segmentation and classification of whole slide images of breast cancer patients to analyse the effect of spatial distribution and the count of immune cells and predict breast cancer subtypes and treatment outcomes. I also generated heatmaps to add clinical interpretability to the attention-based model (such as the CLAM model).
       
       - layout: left
