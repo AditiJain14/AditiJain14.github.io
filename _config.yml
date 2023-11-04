@@ -92,12 +92,20 @@ content:
       - layout: left
         border: weak  # Value of `weak` will display a weak border below this item. # Any 
                       # other value (or no value) means no border will be displayed
-        title: Intelligent Visual Question Answering
-        link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        quote: >
-          Short overview of the project (optional)
+        title: Improving Robustness of Visual Question Answering (VQA) Systems
+        link: https://doi.org/10.1007/978-3-030-68790-8_28
+        caption: Supervised by Dr. Ashish Anand, IIT Guwahati (May 2020 - Jul 2020)
         description: | # this will include new lines to allow paragraphs
-          Description about the work on/with the project
+          I helped annotate a new VQA dataset with 3 categorical rephrasings (30k questions) and contributed to an ICPRW paper. I also trained character-level & word-level encoder decoder models for rephrasing generation using RNNs. I also experimented with using pretrained DistilBert model and a Gensim embedding layer to improve consistency by 15%.
+
+      - layout: left
+        border: weak  # Value of `weak` will display a weak border below this item. # Any 
+                      # other value (or no value) means no border will be displayed
+        title: Analysis of Breast Histopathology Images
+        link: https://doi.org/10.1007/978-3-030-68790-8_28
+        caption: Supervised by Dr. JayaShree Kalpathy-Cramer, Harvard University (Aug 2022 - Nov 2022)
+        description: | # this will include new lines to allow paragraphs
+          I worked on segmentation and classification of whole slide images of breast cancer patients to analyse the effect of spatial distribution and the count of immune cells and predict breast cancer subtypes and treatment outcomes. I also generated heatmaps to add clinical interpretability to the attention-based model (such as the CLAM model).
 
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
