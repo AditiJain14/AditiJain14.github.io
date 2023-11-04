@@ -96,7 +96,7 @@ content:
         caption: Supervised by Dr. Ashish Anand, IIT Guwahati (May 2020 - Jul 2020)
         description: | # this will include new lines to allow paragraphs
           **Improving Robustness of Visual Question Answering (VQA) Systems** <br>
-          I helped annotate a new VQA dataset with 3 categorical rephrasings (30k questions) and contributed to an ICPRW paper. I also trained character-level & word-level encoder decoder models for rephrasing generation using RNNs. I also experimented with using pretrained DistilBert model and a Gensim embedding layer to improve consistency by 15%.
+          - &bull; I helped annotate a new VQA dataset with 3 categorical rephrasings (30k questions) and contributed to an ICPRW paper. I also trained character-level & word-level encoder decoder models for rephrasing generation using RNNs. I also experimented with using pretrained DistilBert model and a Gensim embedding layer to improve consistency by 15%.
 
       - layout: right                      # other value (or no value) means no border will be displayed
         title: Analysis of Breast Histopathology Images
