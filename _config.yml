@@ -48,8 +48,8 @@ additional_links:
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  I am a final year Master's student at IIT Delhi, studying Mathematics and Computing. I was a visiting Research Assistant at Simon Fraser University, Burnaby, Canada in <a href="http://natlang.cs.sfu.ca/">NatLang Lab</a> for the Spring and Summer 2023 terms.
-  I was also a visiting intern in the <a href="https://angelxuanchang.github.io/group.html">3DLG Lab</a> at SFU. I am interested in Multimodal NLP and Translation.
+  I am a final year Master's student at IIT Delhi, studying Mathematics and Computing. Born in Pune, Maharasthra and have shifted to ST. Johns, Newfoundland, Canada (with a PR woohoo). I am fluent in English, Hindi and Marathi. I was a visiting Research Assistant at Simon Fraser University, Burnaby, Canada in <a href="http://natlang.cs.sfu.ca/">NatLang Lab</a> for the Spring and Summer 2023 terms.
+  I was also a visiting intern in the <a href="https://angelxuanchang.github.io/group.html">3DLG Lab</a> at SFU. I am interested in Multimodal NLP and Translation. I have been always been an avid reader (part of how I developed interest in NLP), you can checkout my goodreads (aditijain140102@gmail) 
 
 content:
   - title: Experience # Title for the section
