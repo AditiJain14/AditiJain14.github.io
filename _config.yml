@@ -1,4 +1,4 @@
-# Site
+Site
 repository: sproogen/resume-theme
 favicon: images/favicon.ico
 
@@ -128,8 +128,7 @@ content:
       - Reading (mostly fiction, you can check out my latest reads on my Goodreads)
       - Hiking (I like taking nature pictures!)
       - Obsessing over cats (to an unhealthy amount)
-      ![Athena](/modern-resume-theme/images/cat1.jpg "Athena")
-      ![Athena](/modern-resume-theme/images/cat2.jpg "More Athena")
+      ![Trees](/modern-resume-theme/images/cat1.jpg "Athena")
 
 # Footer
 footer_show_references: false
