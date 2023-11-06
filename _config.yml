@@ -74,7 +74,7 @@ content:
       - layout: top-middle
         title: Optimizing Bloom Filters with Learned Hashes 
         sub_title: Summer Undergraduate Research Intern at IIT Delhi
-        link: https://www.vldb.org/pvldb/vol15/p1924-bhattacharya.pdf
+        link: https://dl.acm.org/doi/10.14778/3538598.3538613
         caption: Supervised by Dr. Srikanta Bedathur (May 2021 - Nov 2021)
         description: |
           Replaced traditional hash functions with a random projection-based approach to exploit patterns in the data by projecting each data point onto a set of vectors. The vectors themselves were divided into bins (to map to indices of the bit array) and the best vector set for a particular dataset was selected after some iterations. This method showed a significant reduction in the memory footprint of a BF while maintaining the desired false positive rate (FPR). I also found upper bounds for size and FPR for the proposed method with extensive mathematical grounding. Awarded the Undergraduate Research Award for the project and laid the groundwork for a VLDB publication.
@@ -92,7 +92,7 @@ content:
     content:
       - layout: left                      # other value (or no value) means no border will be displayed
         title: 
-        link: https://doi.org/10.1007/978-3-030-68790-8_28
+        link: 
         caption: Supervised by Dr. JayaShree Kalpathy-Cramer, Harvard University (Aug 2022 - Nov 2022)
         description: | # this will include new lines to allow paragraphs
           **Analysis of Breast Histopathology Images** <br>
