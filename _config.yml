@@ -87,6 +87,11 @@ content:
         description: |
           **Language Model Based Target Token Importance Rescaling for Simultaneous Neural Machine Translation** <br>
           Aditi Jain, Nishant Kambhatla, Anoop Sarkar, Association for Computational Linguistics (ACL) International Conference on Spoken Language Translation (IWSLT) Workshop 2023. <a href="https://aclanthology.org/2023.iwslt-1.32/"> [DOI] </a>
+      - layout: top-middle
+        description: |
+          **Investigating the Quality of DermaMNIST and Fitzpatrick17k Dermatological Image Datasets** <br>
+          Kumar Abhishek, Aditi Jain, Ghassan Hamarneh, arXiv preprint <a href="https://arxiv.org/pdf/2401.14497"> [Under Review] </a>
+
 
   - title: Projects
     layout: list
